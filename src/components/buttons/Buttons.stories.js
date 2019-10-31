@@ -211,7 +211,6 @@ storiesOf('Button', module)
     .add('Cart', () => <Cart
         img src = {Cart}    
     />)
-    .add('Heart',() => <Heart
-    />)
+   
 
     
