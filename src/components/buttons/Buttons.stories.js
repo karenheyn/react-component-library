@@ -1,7 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-
 import Button from './Button';
+import cart from './Images/cart_2.png';
 
 
 storiesOf('Button', module)
@@ -198,6 +198,18 @@ storiesOf('Button', module)
     type = 'default'
     transparent
     large
+    />)
+
+    .add('Primary-transparent-addtocart', () => <Button
+    label = 'Add to cart'
+    type = 'primary'
+    transparent
+    addtocart
+    />)
+
+    storiesOf('Icon', module)
+    .add('Cart', () => <Icon
+        img src = {cart}    
     />)
 
     

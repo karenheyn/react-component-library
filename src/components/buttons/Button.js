@@ -1,5 +1,6 @@
 import React from 'react';
 import './Button.css'
+import cart from './Images/cart_2.png';
 
 const Button = (props) => {
     let classList = ''
@@ -18,7 +19,15 @@ const Button = (props) => {
     if (props.hollow) {
         classList += ` button-${props.type}-hollow`}
     if (props.transparent) {
-            classList += ` button-${props.type}-transparent`}
+        classList += ` button-${props.type}-transparent`}
+    if (props.addtocart) {
+        // return (
+        //     <div>
+        //         <img 
+        //         src= {cart} alt= ""></img>
+        //     </div>
+        // )
+    }
     return <button className= {classList}>
         {props.label}
     </button>
