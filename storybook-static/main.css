@@ -1,0 +1,95 @@
+
+button {
+    background-color: #33A0FF;
+    color: white;
+    border-radius: 4px;
+    padding: 5px 25px;
+    width: 150px;
+    height: 46px;
+    border: #0069D9;  
+}
+.button-primary{
+    background-color: #33A0FF;
+}
+.button-primary-hover:hover{
+    background-color: #2E90E5;
+}
+.button-primary-hollow{
+    background-color: transparent;
+    border: 2px solid #33A0FF;
+    color:#33A0FF ;
+}
+.button-primary-transparent{
+    background-color: rgba(51, 160, 255, 0.144) ;
+    color: #33A0FF ;
+}
+.button-danger{
+    background-color: #FF4252;
+}
+.button-danger-hollow{
+    background-color: transparent;
+    border: 2px solid #FF4252;
+    color:#FF4252 ;
+}
+.button-danger-transparent{
+    background-color: rgba(255, 66, 82, 0.144) ;
+    color: #FF4252 ;
+}
+.button-danger-hover:hover{
+    background-color: rgb(206, 51, 64);
+}
+.button-success{
+    background-color: #0AD00A;
+}
+.button-success-hover:hover{
+    background-color: rgb(10, 180, 10);
+}
+.button-success-hollow{
+    background-color: transparent;
+    border: 2px solid #0AD00A;
+    color:#0AD00A ;
+}
+.button-success-transparent{
+    background-color: rgba(10, 208, 10, 0.144) ;
+    color: #0AD00A ;
+}
+.button-warning{
+    background-color:  #FFC600;
+}
+.button-warning-hollow{
+    background-color: transparent;
+    border: 2px solid #FFC600;
+    color:#FFC600;
+}
+.button-warning-transparent{
+    background-color: rgba(255, 200, 0, 0.144) ;
+    color: #FFC600 ;
+}
+.button-warning-hover:hover{
+    background-color:  rgb(230, 180, 0);
+}
+.button-default{
+    background-color:  #22262A;
+}
+.button-default-hover:hover{
+    background-color:  rgb(20, 23, 26);
+}
+.button-default-hollow{
+    background-color: transparent;
+    border: 2px solid  #22262A;
+    color: #22262A ;
+}
+.button-default-transparent{
+    background-color:  rgba(34, 38, 42, 0.075) ;
+    color:  #22262A ;
+}
+.button-large{
+    width: 171px;
+    height: 61px;
+}
+/* .button-addtocart{
+    
+} */
+
+
+/*# sourceMappingURL=main.css.map*/
