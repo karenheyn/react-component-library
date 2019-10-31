@@ -1,7 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import Button from './Button';
-import cart from './Images/cart_2.png';
+import Cart from './cart'
 
 
 storiesOf('Button', module)
@@ -208,8 +208,10 @@ storiesOf('Button', module)
     />)
 
     storiesOf('Icon', module)
-    .add('Cart', () => <Icon
-        img src = {cart}    
+    .add('Cart', () => <Cart
+        img src = {Cart}    
+    />)
+    .add('Heart',() => <Heart
     />)
 
     

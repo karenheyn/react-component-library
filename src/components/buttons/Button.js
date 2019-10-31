@@ -1,6 +1,6 @@
 import React from 'react';
 import './Button.css'
-import cart from './Images/cart_2.png';
+// import cart from './Images/cart_2.png';
 
 const Button = (props) => {
     let classList = ''
