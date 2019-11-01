@@ -1,6 +1,9 @@
 import React from 'react';
-import './Button.css'
+import './Button.css';
 // import cart from './Images/cart_2.png';
+// import Heart from './heart'
+import Cart from './cart'
+import Heart from './heart'
 
 const Button = (props) => {
     let classList = ''
@@ -21,17 +24,33 @@ const Button = (props) => {
     if (props.transparent) {
         classList += ` button-${props.type}-transparent`}
     if (props.addtocart) {
-        // return (
-        //     <div>
-        //         <img 
-        //         src= {cart} alt= ""></img>
-        //     </div>
-        // )
+        classList += ` button-addtocart`
+        return(
+            <button className = {classList}><Cart/>{props.label}</button>
+        )
     }
+    if (props.addtofav) {
+        classList += ` button-addtofav`
+        return(
+            <button className = {classList}><Heart/>{props.label}</button>
+        )
+    }
+    if (props.smallcart){
+        classList += ` button-smallcart`
+        return(
+            <button className = {classList}><Cart/></button>
+        )
+    }
+    if (props.smallheart){
+        classList += ` button-smallheart`
+        return(
+            <button className = {classList}><Heart/></button>
+        )
+    }
+    
     return <button className= {classList}>
         {props.label}
     </button>
 }
 
 export default Button;
-

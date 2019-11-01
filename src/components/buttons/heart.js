@@ -3,7 +3,9 @@ import heart from './Images/hearts.png';
 
 const Heart = () => {
     return(
-        <img src = {heart} alt = ""></img>
+        <img src = {heart} alt = ""
+        type = 'cart'></img>
     )
 }
 export default Heart
+

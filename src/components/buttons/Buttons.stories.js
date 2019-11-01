@@ -2,6 +2,8 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import Button from './Button';
 import Cart from './cart'
+import Heart from './heart'
+
 
 
 storiesOf('Button', module)
@@ -200,17 +202,40 @@ storiesOf('Button', module)
     large
     />)
 
-    .add('Primary-transparent-addtocart', () => <Button
-    label = 'Add to cart'
+    .add('Cart', () => <Button
+    label =  'Add to cart' 
     type = 'primary'
     transparent
-    addtocart
+    addtocart 
     />)
+
+    .add('Small-cart', () => <Button
+    label =  'Add to cart' 
+    type = 'primary'
+    transparent
+    smallcart
+/>)
+
+.add('Heart', () => <Button
+label =  'Add to favorites' 
+type = 'primary'
+transparent
+addtofav
+/>)
+.add('Small-heart', () => <Button
+label =  'Add to favorites' 
+type = 'primary'
+transparent
+smallheart
+/>)
 
     storiesOf('Icon', module)
     .add('Cart', () => <Cart
-        img src = {Cart}    
     />)
-   
+    .add('Heart', () => <Heart
+    type = 'heart'
+        img src = {Heart}    
+    />)
+    
 
     
