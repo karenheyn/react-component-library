@@ -24,7 +24,7 @@ const Button = (props) => {
     if (props.transparent) {
         classList += ` button-${props.type}-transparent`}
     if (props.addtocart) {
-        classList += ` button-addtocart`
+        classList += ` button-${props.type}addtocart`
         return(
             <button className = {classList}><Cart/>{props.label}</button>
         )
