@@ -1,0 +1,18 @@
+
+
+.select {
+    height:60px;
+    width:300px;
+    background-image: url(./arrowdown.png);
+    background-repeat: no-repeat;
+    appearance: none;
+    background-position: 90%;
+    padding-left: 5%;
+    border: 2px solid #F1F3F4;
+    border-radius: 4px;
+    background-color: transparent;
+
+}
+.select-medium {
+    height:46;
+}
