@@ -14,5 +14,13 @@
 
 }
 .select-medium {
-    height:46;
+    height: 46px;
+}
+.select-small {
+    height: 38px;
+    width: 200px;
+}
+.filled {
+    background-color: #FAFAFB;
+    border: none;
 }
