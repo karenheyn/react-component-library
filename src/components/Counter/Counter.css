@@ -1,0 +1,16 @@
+.container{
+    display:flex;
+    justify-content: center;
+    color: black;
+    background-color: #FAFAFB;
+    width: 116px;
+    height: 46px;
+    line-height: 11px;
+    font-family: Arial, sans-serif;
+}
+.button {
+    width: 5px;
+    background-color: #FAFAFB;
+    color: #33A0FF;
+    font-size: 20px;
+}
