@@ -20,14 +20,14 @@ import './Checkbox.css'
      render() { 
          return ( 
             <label 
-            className={this.state.isChecked}>
+            className={this.state.isChecked + '-' + this.props.color}>
             <input 
             type='checkbox'
             className= {this.state.isChecked}
             name = {this.props.name}
             onChange = {this.handleCheckboxChange}>
             </input>
-            <span className='checkmark'></span>
+            <span className={'checkmark-' + this.props.color }></span>
             {this.props.text}</label>
           );
      }
