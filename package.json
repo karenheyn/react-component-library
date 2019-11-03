@@ -1,11 +1,27 @@
+
 {
-  "name": "react-component-library",
+  "name": "react-component-by-karen",
+  "description": "component libray featuring buttons, thumbnails and more for online shopping website",
   "version": "0.1.0",
+  "main": "src/index.js",
+  "bin": "src/index.js",
   "private": true,
   "dependencies": {
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-scripts": "3.2.0"
+  },
+  "keywords":[
+  "buttons",
+  "online-shopping",
+  "thumbnails",
+  "component",
+  "library"
+  ],
+  "author": "Karen Heyn",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karenheyn/react-component-library"
   },
   "scripts": {
     "build-storybook": "build-storybook -c .storybook",
