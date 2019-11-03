@@ -140,10 +140,10 @@ p{
 .buttons {
     display: flex;
 }
-.button{
+.button2{
     margin: 20px;
     justify-content: space-evenly;
 }
-Button{
+.buttons > Button {
     margin: 10px;
 }
