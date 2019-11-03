@@ -33,7 +33,7 @@
     width: 360px;
     border-radius:4px;
 }
-.button-primary{
+ form > .button-primary{
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     width: 118px;
