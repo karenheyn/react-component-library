@@ -59,6 +59,19 @@ class Thumbnail extends Component {
             </div>
          );
     } 
+    if (this.props.inline){
+        return ( 
+            <div className = 'box-inline' onMouseEnter = {this.nohover} onMouseLeave = {this.hover}>
+                    <div className='box-container'>
+                    <div><img className = 'mac' src = {mac} alt = 'mac'></img></div>
+                    <div className='right'>
+                    <h3 className = 'product'>Apple Macbook Pro</h3><img src = {rate} alt = 'rating'></img>
+                    <div><h3>$499<span> $599</span></h3></div>
+                    </div>
+                    </div>
+            </div>
+         );
+    } 
     }
 }
 

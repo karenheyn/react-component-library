@@ -7,6 +7,8 @@ storiesOf('Thumbnail', module)
     blue
     />)
     .add('Thumbnail-block-whiteicons', () => <Thumbnail
-    label = "Email"
     white
+    />)
+    .add('Thumbnail-inline', () => <Thumbnail
+    inline
     />)
