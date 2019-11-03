@@ -15,3 +15,6 @@ storiesOf('Thumbnail', module)
     .add('Thumbnail-headphones-inline', () => <Thumbnail
     headphones
     />)
+    .add('Thumbnail-inline-large', () => <Thumbnail
+    large
+    />)
