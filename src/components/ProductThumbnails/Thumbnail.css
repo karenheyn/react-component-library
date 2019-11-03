@@ -90,3 +90,11 @@ h3 {
 .right{
     margin-left:20px;
 }
+.box-inline2{
+    width: 350px;
+    display: flex;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid #F5F7F8;
+    border-radius: 3px;
+}

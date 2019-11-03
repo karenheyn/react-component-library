@@ -6,6 +6,7 @@ import Cart from './cart_2.png'
 import Heart from './hearts.png'
 import Whiteheart from './heart_white.png'
 import Whitecart from './cart_white.png'
+import beats from './beats.png'
 
 class Thumbnail extends Component {
     constructor(props) {
@@ -66,6 +67,19 @@ class Thumbnail extends Component {
                     <div><img className = 'mac' src = {mac} alt = 'mac'></img></div>
                     <div className='right'>
                     <h3 className = 'product'>Apple Macbook Pro</h3><img src = {rate} alt = 'rating'></img>
+                    <div><h3>$499<span> $599</span></h3></div>
+                    </div>
+                    </div>
+            </div>
+         );
+    } 
+    if (this.props.headphones){
+        return ( 
+            <div className = 'box-inline2' onMouseEnter = {this.nohover} onMouseLeave = {this.hover}>
+                    <div className='box-container'>
+                    <div><img className = 'mac' src = {beats} alt = 'mac'></img></div>
+                    <div className='right'>
+                    <h3 className = 'product'>Beats headphones</h3><img src = {rate} alt = 'rating'></img>
                     <div><h3>$499<span> $599</span></h3></div>
                     </div>
                     </div>
