@@ -24,5 +24,27 @@
     height:46px;
 }
 .large-form{
-    height:60px
+    height:60px;
+}
+.submit{
+    height:40px;
+    border: 2px solid #F1F3F4;
+    border-right:none;
+    width: 360px;
+    border-radius:4px;
+}
+.button-primary{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    width: 118px;
+}
+.small {
+    height:30px;
+    border: 2px solid #F1F3F4;
+    border-right:none;
+    width: 200px;
+    border-radius: 4px;
+}
+.tiny > .button-primary  {
+    height: 36px;
 }

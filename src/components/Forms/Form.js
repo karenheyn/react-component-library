@@ -1,5 +1,6 @@
 import React from 'react';
 import './Form.css'
+import Button from '../buttons/Button'
 
 const Form = (props) => {
     let classList = ''
@@ -17,11 +18,39 @@ const Form = (props) => {
         classList += ` form-${props.type}-medium`
         input += ` large-form`
     }
-    return <form className= {classList}>
+    if (props.submit) {
+        classList += ` submit`
+        return (
+          <form onSubmit={ props.handleSubmit }>
+            <input 
+            className = {classList}
+            placeholder={props.value} />
+            <Button
+            label= {props.label}
+            type="primary"></Button>
+          </form>
+        );
+      }
+    if (props.small){
+        classList+= ` small` 
+        return (
+            <form onSubmit={ props.handleSubmit }
+            className = 'tiny'>
+            <input 
+            className = {classList}
+            placeholder={props.value} />
+            <Button
+            label= {props.label}
+            type="primary"></Button>
+          </form>
+        )
+           
+    }
+    return (<form className= {classList}>
         <label>{props.label}</label>
         
         <input className={input} placeholder={props.label}></input>
-    </form>
+    </form>)
 }
 export default Form
 
