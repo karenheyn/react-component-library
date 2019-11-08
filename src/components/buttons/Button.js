@@ -13,8 +13,7 @@ const Button = (props) => {
     'warning', 
     'default']
     if (types.includes(props.type)) {
-        classList += ` button-${props.type}`
-    }
+        classList += ` button-${props.type}`}
     if (props.large) {
         classList += ` button-large`}
     if (props.hover){

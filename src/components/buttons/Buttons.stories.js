@@ -16,6 +16,12 @@ storiesOf('Button', module)
     type = "primary"
     hover
 />)
+    .add('Primary-large-hover', () => <Button
+    label = "Primary"
+    type = "primary"
+    hover
+    large
+/>)
     .add('Primary-hollow', () => <Button
     label = "Primary2"
     type = "primary"
@@ -51,6 +57,12 @@ storiesOf('Button', module)
     label = "Danger"
     type = "danger"
     hover
+/>)
+    .add('Danger-large-hover', () => <Button
+    label = "Danger"
+    type = "danger"
+    hover
+    large
 />)
     .add('Danger-hollow', () => <Button 
     label = 'Danger'
@@ -89,7 +101,12 @@ storiesOf('Button', module)
     type = "success"
     hover
     />)
-
+    .add('Success-large-hover', () => <Button
+    label = "Success"
+    type = "success"
+    hover
+    large
+    />)
     .add('Success-hollow', () => <Button
     label = 'Success2'
     type = 'success'
@@ -129,7 +146,13 @@ storiesOf('Button', module)
     label = "Warning"
     type = "warning"
     hover
-/>)
+    />)
+    .add('Warning-large-hover', () => <Button
+    label = "Warning"
+    type = "warning"
+    hover
+    large
+    />)
     .add('Warning-hollow', () => <Button
     label = 'Warning2'
     type = 'warning'
@@ -167,7 +190,13 @@ storiesOf('Button', module)
     label = "Default"
     type = "default"
     hover
-/>)
+    />)
+    .add('Default-large-hover', () => <Button
+    label = "Default"
+    type = "default"
+    hover
+    large
+    />)
 
     .add('Default-hollow', () => <Button
     label = 'Default'
